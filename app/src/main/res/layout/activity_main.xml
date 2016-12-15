@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test.jinesh.animatedlinearlayout.AnimatedLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="test.jinesh.animatedlinearlayout.MainActivity">
+
+    <test.jinesh.animatedlinearlayout.AnimatedLinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Test Header Details"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginRight="60dp"
+            android:tag="SlideDown"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="24dp"
+            android:tag="ZoomInAndRotateClockWise"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:layout_height="24dp" />
+    </test.jinesh.animatedlinearlayout.AnimatedLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:tag="SlideDownMore"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="1dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Example Text"
+        android:textColor="#fff"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:tag="SlideDown"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+    <test.jinesh.animatedlinearlayout.AnimatedLinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+        <test.jinesh.animatedlinearlayout.AnimatedLinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="First Item:"
+                android:textColor="#fff"
+                android:tag="SlideDown"
+                android:layout_marginLeft="25dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#fff"
+                android:text="First Details"
+                android:textSize="18sp"
+                android:tag="SlideDown"
+                android:layout_marginLeft="25dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView" />
+        </test.jinesh.animatedlinearlayout.AnimatedLinearLayout>
+        <test.jinesh.animatedlinearlayout.AnimatedLinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Second:"
+                android:textColor="#fff"
+                android:tag="SlideDown"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#fff"
+                android:text="Second Details"
+                android:tag="SlideDown"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+        </test.jinesh.animatedlinearlayout.AnimatedLinearLayout>
+    </test.jinesh.animatedlinearlayout.AnimatedLinearLayout>
+</test.jinesh.animatedlinearlayout.AnimatedLinearLayout>
