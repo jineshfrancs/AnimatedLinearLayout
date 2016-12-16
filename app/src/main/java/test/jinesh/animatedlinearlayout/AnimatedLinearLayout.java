@@ -4,6 +4,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
 import android.view.animation.DecelerateInterpolator;
@@ -35,7 +36,7 @@ public class AnimatedLinearLayout extends LinearLayout {
             for (int index = 0; index < getChildCount(); index++) {
                 View child = getChildAt(index);
                 currentChild=child;
-                if(!(child instanceof LinearLayout)) {
+                if(!(child instanceof ViewGroup)) {
                     switch (child.getTag().toString()) {
                         case SLIDE_DOWN:
                             animation = new TranslateAnimation(0, 0, -((child.getMeasuredHeight()/2) * (index + 1)), 0);

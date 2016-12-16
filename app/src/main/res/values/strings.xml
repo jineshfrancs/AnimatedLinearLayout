@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AnimatedLinearLayout</string>
+    <string name="test_header_details">Test Header Details</string>
+    <string name="example_text">Example Text</string>
+    <string name="first_item">First Item:</string>
+    <string name="first_details">First Details</string>
+    <string name="second">Second:</string>
+    <string name="second_details">Second Details</string>
 </resources>

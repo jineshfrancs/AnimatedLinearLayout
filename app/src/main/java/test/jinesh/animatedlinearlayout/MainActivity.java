@@ -1,7 +1,10 @@
 package test.jinesh.animatedlinearlayout;
 
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.PopupWindow;
 
 public class MainActivity extends AppCompatActivity {
 

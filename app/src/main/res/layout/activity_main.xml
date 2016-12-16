@@ -16,7 +16,7 @@
         android:layout_height="wrap_content">
         <TextView
             android:layout_width="wrap_content"
-            android:text="Test Header Details"
+            android:text="@string/test_header_details"
             android:textColor="#fff"
             android:textSize="20sp"
             android:layout_marginRight="60dp"
@@ -40,7 +40,7 @@
         android:layout_height="1dp"/>
     <TextView
         android:layout_width="wrap_content"
-        android:text="Example Text"
+        android:text="@string/example_text"
         android:textColor="#fff"
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
@@ -60,7 +60,7 @@
             android:layout_height="match_parent">
             <TextView
                 android:layout_width="wrap_content"
-                android:text="First Item:"
+                android:text="@string/first_item"
                 android:textColor="#fff"
                 android:tag="SlideDown"
                 android:layout_marginLeft="25dp"
@@ -71,7 +71,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:textColor="#fff"
-                android:text="First Details"
+                android:text="@string/first_details"
                 android:textSize="18sp"
                 android:tag="SlideDown"
                 android:layout_marginLeft="25dp"
@@ -85,7 +85,7 @@
             android:layout_height="match_parent">
             <TextView
                 android:layout_width="wrap_content"
-                android:text="Second:"
+                android:text="@string/second"
                 android:textColor="#fff"
                 android:tag="SlideDown"
                 android:paddingTop="15dp"
@@ -94,7 +94,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:textColor="#fff"
-                android:text="Second Details"
+                android:text="@string/second_details"
                 android:tag="SlideDown"
                 android:textSize="18sp"
                 android:layout_height="wrap_content" />
